@@ -3,10 +3,8 @@
 using namespace std;
 
 int main() {
-    int N;
+    int N, drawnValue, score, auxScore, auxValue = 0;
     cin >> N;
-
-    int drawnValue, score, auxScore, auxValue = 0;
 
     for (int i = 0; i < N; i++) {
         cin >> drawnValue;
