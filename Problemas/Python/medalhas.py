@@ -1,5 +1,3 @@
-# Medalhas
-
 athlete_1 = int(input())
 athlete_2 = int(input())
 athlete_3 = int(input())

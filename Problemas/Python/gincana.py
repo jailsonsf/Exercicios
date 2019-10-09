@@ -1,6 +1,3 @@
-# Gincana
-
-
 def mdc(a, b):
     while b > 0:
         r = a % b
