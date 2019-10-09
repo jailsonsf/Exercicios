@@ -46,7 +46,7 @@ int main() {
     cout.precision(2);
     cout.setf(ios::fixed);
 
-    cout << "A area é " << raio*raio*pi << "\n";
+    cout << "A area eh " << raio*raio*pi << "\n";
 
     return 0;
 }
