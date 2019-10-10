@@ -146,8 +146,8 @@ int main() {
 }
 ```
 
-O trecho de código acima mostra na tela o valor de $x^y$.
-Além disso podemos usar a função `pow()` para calcular a raiz, o código abaixo retorna a raiz quadrada de $x$ e em seguida a n-ésima raiz $x$, já que $x^{1/n} = \sqrt[n]{x}$:
+O trecho de código acima mostra na tela o valor de x elevado a y.
+Além disso podemos usar a função `pow()` para calcular a raiz, o código abaixo retorna a raiz quadrada de x e em seguida a n-ésima raiz:
 
 ```c++
 #include <iostream>
