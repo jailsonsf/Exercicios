@@ -7,6 +7,7 @@
 - [Estrutura de Repetição](#estrutura-de-repeti%c3%a7%c3%a3o)
 - [Biblioteca math](#biblioteca-math)
 - [Vetores](#vetores)
+- [Matrizes](#matrizes)
 
 
 # Introdução
@@ -187,4 +188,36 @@ int main() {
 }
 ```
 
-Com esse código adicionamos no nosso vetor os valores de 0 a 9.
+Com esse código acima adicionamos no nosso vetor os valores de 0 a 9.
+
+# Matrizes
+
+Esse trecho de código gera uma matriz 10x10. Que basicamente é formado por um vetor de vetores, ou seja, uma matriz bidimensional.
+```c++
+#include <iostream>
+
+using namespace std;
+
+int m[10][10];
+
+int main() {
+
+    for (int i = 0; i < 10; i++) {
+
+        for (int j = 0; j < 10; j++) {
+            m[i][j] = j;
+
+        }
+    }
+
+    for(int i = 0; i < 10; ++i) {
+
+      for(int j = 0; j < 10; ++j) {
+        cout << m[i][j] << " ";
+      
+      }
+      cout << "\n";
+    
+    }
+}
+```
