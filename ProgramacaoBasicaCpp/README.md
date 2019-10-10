@@ -6,6 +6,7 @@
 - [Estrutura de Decisão](#estrutura-de-decis%c3%a3o)
 - [Estrutura de Repetição](#estrutura-de-repeti%c3%a7%c3%a3o)
 - [Biblioteca math](#biblioteca-math)
+- [Vetores](#vetores)
 
 
 # Introdução
@@ -165,3 +166,25 @@ int main() {
 }
 ```
 Para fazer a raiz quadrada em vez de usar `pow(x, 0.5)` poderiamos usar o comando `sqrt(x)`. Essas são apenas funções básicas da biblioteca, ela possui várias outras funções disponíveis.
+
+# Vetores
+
+Para declararmos um vetor basta adicionarmos colchetes após declarar a nossa variável e dentro dos colchetes o tamanho do nosso vetor, por exemplo `int values[10]` com esse comando criamos um vetor de tamanho 10, ou seja, com 10 espaços disponíveis para armazenarmos valores.
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int values[10];
+
+    for (int i = 0; i < 10; i++) {
+        values[i] = i;
+
+        cout << values[i] << "\n";
+    }
+}
+```
+
+Com esse código adicionamos no nosso vetor os valores de 0 a 9.
